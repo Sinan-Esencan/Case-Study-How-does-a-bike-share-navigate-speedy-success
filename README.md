@@ -10,14 +10,14 @@ Cyclistic, a bike-share company in Chicago, has two rider types:
 Annual memberships bring more profit. The marketing director, Lily Moreno, tasked me with analyzing how these two user groups behave differently, using **Cyclistic’s trip data from the past 12 months**. The goal is to provide **data-driven insights** to help convert casual riders into members.
 
 ## Table of Contents
-[Overview](#overview)
-[Data Source & Tools](#-data-source--tools)
-[Data Cleaning](#-data-cleaning)
-[Key Findings](#-key-findings)
-[Visualizations (R with ggplot2)](#-visualizations-r-with-ggplot2)
-[Recommendations](#-recommendations)
-[Repository Structure](#-repository-structure)
-[License & Privacy](#-license--privacy)
+- [Overview](#overview)
+- [Data Source & Tools](#-data-source--tools)
+- [Data Cleaning](#-data-cleaning)
+- [Key Findings](#-key-findings)
+- [Visualizations (R with ggplot2)](#-visualizations-r-with-ggplot2)
+- [Recommendations](#-recommendations)
+- [Repository Structure](#-repository-structure)
+- [License & Privacy](#-license--privacy)
 
 
 ## Data Source & Tools
