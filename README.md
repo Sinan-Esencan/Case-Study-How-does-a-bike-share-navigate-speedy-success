@@ -63,8 +63,8 @@ Annual memberships bring more profit. The marketing director, Lily Moreno, taske
 ## Repository Structure
 - `divvy_analysis.R` → R script with code
 - `visualizations/` → PNG files for each chart
-- `Divvy_Trips_2020_Q1.csv` → Cleaned dataset (optional)
+-`Divvy_Trips_2020_Q1.csv` → Cleaned dataset (optional)
 
 ## License & Privacy
-Data provided by **Bikeshare (Lyft)** and the **City of Chicago**. Used strictly for **non-commercial analysis**. Personally identifiable information (PII) excluded due to privacy policies.
+Data is provided by **Bikeshare (Lyft)** and the **City of Chicago**. It is allowed to be used for **non-commercial analysis**. Personally identifiable information (PII) excluded due to privacy policies.
 
