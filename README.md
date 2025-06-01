@@ -10,17 +10,19 @@ Cyclistic, a bike-share company in Chicago, has two rider types:
 Annual memberships bring more profit. The marketing director, Lily Moreno, tasked me with analyzing how these two user groups behave differently, using **Cyclistic’s trip data from the past 12 months**. The goal is to provide **data-driven insights** to help convert casual riders into members.
 
 ## Table of Contents
+___
 - [Overview](#overview)
-- [Data Source & Tools](#data-source--tools)
-- [Data Cleaning](#data-cleaning)
-- [Key Findings](#key-findings)
-- [Visualizations (R with ggplot2)](#visualizations-r-with-ggplot2)
-- [Recommendations](#recommendations)
-- [Repository Structure](#repository-structure)
-- [License & Privacy](#license--privacy)
+- [Data Source & Tools](#-data-source--tools)
+- [Data Cleaning](#-data-cleaning)
+- [Key Findings](#-key-findings)
+- [Visualizations (R with ggplot2)](#-visualizations-r-with-ggplot2)
+- [Recommendations](#-recommendations)
+- [Repository Structure](#-repository-structure)
+- [License & Privacy](#-license--privacy)
 
 
 ## Data Source & Tools
+***
 - **Data:** Divvy_Trips_2020_Q1.csv (426,887 entries)
 - **Format:** Wide format, includes ride_id, timestamps, locations, user type, etc.
 - **Tools Used:**
@@ -29,6 +31,7 @@ Annual memberships bring more profit. The marketing director, Lily Moreno, taske
   - **Libraries:** `readr`, `ggplot2`, `dplyr`, `janitor`
 
 ## Data Cleaning
+---
 - Removed rides > 24 hours for casual users (likely outliers)
 - Removed rides with negative duration
 - Filtered future-dated records (beyond March 2020)
@@ -36,6 +39,7 @@ Annual memberships bring more profit. The marketing director, Lily Moreno, taske
 - Final dataset: **426,447 rides**
 
 ## Key Findings
+---
 1. **Average Ride Duration**
    - Casual: ~37 mins
    - Members: ~12 mins
@@ -50,21 +54,25 @@ Annual memberships bring more profit. The marketing director, Lily Moreno, taske
    - Clinton St & Washington Blvd
 
 ## Visualizations (R with ggplot2)
+---
 - Bar plots of ride count by user type and day
 - Avg. ride time by user type and weekday
 - Top 10 popular start stations (horizontal bar)
 
 ## Recommendations
+---
 - **Target Ads** at top 3 stations
 - **Offer discounts** for first month of membership
 - **Introduce loyalty programs**
 - Focus marketing on **Sunday, Saturday, and Wednesday**
 
 ## Repository Structure
+---
 - `divvy_analysis.R` → R script with code
 - `visualizations/` → PNG files for each chart
-- `Case study_ How does a bike-share navigate speedy success_.docx` → Detailed Word document explaining the process
+- `Divvy_Trips_2020_Q1.csv` → Cleaned dataset (optional)
 
 ## License & Privacy
-Data is provided by **Bikeshare (Lyft)** and the **City of Chicago**. It is allowed to be used for **non-commercial analysis**. Personally identifiable information (PII) excluded due to privacy policies.
+***
+Data provided by **Bikeshare (Lyft)** and the **City of Chicago**. Used strictly for **non-commercial analysis**. Personally identifiable information (PII) excluded due to privacy policies.
 
